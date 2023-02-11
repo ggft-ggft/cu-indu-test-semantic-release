@@ -1,5 +1,5 @@
 {
-  "name": "@sggft/first-test",
+  "name": "@meduse/test-semantic-release",
   "version": "2.0.1",
   "description": "A project that uses semantic-release to automate the publishing of NPM packages to GitLab's Package Registry",
   "main": "index.js",
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/gitlab-examples/semantic-release-npm.git"
+    "url": "https://git.gft.com/meduse/test-semantic-release.git"
   },
   "keywords": [
     "gitlab",
@@ -21,9 +21,9 @@
   "author": "Nathan Friend <nathan@gitlab.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/gitlab-examples/semantic-release-npm/-/issues"
+    "url": "https://git.gft.com/meduse/test-semantic-release/-/issues"
   },
-  "homepage": "https://gitlab.com/gitlab-examples/semantic-release-npm#readme",
+  "homepage": "https://git.gft.com/meduse/test-semantic-release/-/blob/main/README.md",
   "publishConfig": {
     "access": "public"
   },
