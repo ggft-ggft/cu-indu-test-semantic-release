@@ -1,5 +1,5 @@
 default:
-  image: node:18-alpine
+  image: jaredreisinger/semantic-release
   before_script:    
     - npm ci --cache .npm --prefer-offline
     - |
@@ -25,7 +25,7 @@ stages:
 publish:
   stage: release
   tags: 
-    - meduse-runner
+    - induRunner
   script:
     - npm run semantic-release
   rules:
