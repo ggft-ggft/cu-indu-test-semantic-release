@@ -24,6 +24,7 @@ stages:
 
 publish:
   stage: release
+  tag: meduse-runner
   script:
     - npm run semantic-release
   rules:
