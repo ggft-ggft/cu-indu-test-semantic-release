@@ -1,5 +1,5 @@
 default:
-  image: jaredreisinger/semantic-release
+  image: node:18-alpine
   before_script:    
     - npm ci --cache .npm --prefer-offline
     - |
