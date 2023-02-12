@@ -1,5 +1,5 @@
 {
-  "name": "@cu-indu/test-semantic-release",
+  "name": "@ggft-ggft/cu-indu-test-semantic-release",
   "version": "2.0.1",
   "description": "A project that uses semantic-release to automate the publishing of NPM packages to GitLab's Package Registry",
   "main": "index.js",
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://git.gft.com/cu-indu/test-semantic-release.git"
+    "url": "https://github.com/ggft-ggft/cu-indu-test-semantic-release.git"
   },
   "keywords": [
     "gitlab",
@@ -21,9 +21,9 @@
   "author": "Nathan Friend <nathan@gitlab.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://git.gft.com/cu-indu/test-semantic-release/-/issues"
+    "url": "https://github.com/ggft-ggft/cu-indu-test-semantic-release/issues"
   },
-  "homepage": "https://git.gft.com/cu-indu/test-semantic-release/-/blob/main/README.md",
+  "homepage": "https://github.com/ggft-ggft/cu-indu-test-semantic-release",
   "publishConfig": {
     "access": "public"
   },
@@ -35,5 +35,6 @@
     "@semantic-release/gitlab": "^6.0.5",
     "@semantic-release/npm": "^7.0.8",
     "semantic-release": "^17.3.0"
-  }
+  },
+  "release": { "branches": [ "master", "main" ] }
 }
