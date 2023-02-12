@@ -25,7 +25,7 @@ stages:
 publish:
   stage: release
   tags: 
-    - induRunner
+    - local-2023
   script:
     - npm run semantic-release
   rules:
