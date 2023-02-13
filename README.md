@@ -39,3 +39,4 @@ or:
 yarn add @gitlab-examples/semantic-release-npm
 ```
 --blabllbal
+--blabllbal
